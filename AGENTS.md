@@ -47,24 +47,6 @@ Before suggesting Personal Wiki promotion, consult:
 personal-wiki/PROJECT_REGISTRY.md
 ```
 
-Current registered Personal Wiki projects are:
-
-- EM Macro
-- AI Economy
-- Energy
-- Geopolitics
-- Personal Trainer
-
-The following domains are excluded from Personal Wiki promotion by default:
-
-- BoGa app/product work
-- Music practice and theory
-- Books and reading impressions
-- Family logistics
-- Random tech fixes
-
-These can still live in AI Inbox as notes, captures, or working material. They should not be routed to the Personal Wiki unless the registry is explicitly updated.
-
 ## Notion database
 
 Main database:
@@ -91,21 +73,8 @@ Expected properties:
 
 ## Author policy
 
-Set `Author` accurately.
+Set `Author` accurately by complying to the `/contracts/Authorship Policy.md`
 
-Use:
-
-- `Sergio` for notes generated or substantially edited by Sergio.
-- `Stefano` for notes written directly by Stefano.
-- `Other AI` for notes produced by another AI assistant or tool.
-- `Imported` for material imported from another system without substantial editing.
-
-When Sergio creates a page, set:
-
-```text
-Author = Sergio
-Review = Pending
-```
 
 ## Type policy
 
