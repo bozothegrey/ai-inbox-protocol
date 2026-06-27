@@ -6,13 +6,13 @@ Any AI system, automation, script, or agent that creates or modifies notes in th
 
 ## System model
 
-The system separates raw material, AI processing, long-term knowledge, and operating rules.
+The system separates raw material, AI processing, long-term knowledge work, and operating rules.
 
 | Layer | Location | Purpose |
 |---|---|---|
 | Raw/source archive | Google Drive | PDFs, screenshots, article exports, transcripts, source files, raw captures |
 | AI working layer | Notion `AI Inbox` | AI notes, mobile captures, source summaries, working notes, review queue, promotion candidates |
-| Curated knowledge base | Obsidian / Personal Wiki | Reviewed permanent notes |
+| Curated knowledge work | Personal Wiki | Reviewed, structured, cumulative wiki notes and research outputs |
 | Protocol and templates | GitHub `ai-inbox-protocol` | Rules, templates, workflow docs, agent instructions |
 
 ## Core principle
@@ -21,9 +21,23 @@ Notion is the cockpit and working layer. It is not the final Personal Wiki.
 
 Raw/source files stay in Google Drive by default.
 
-Reviewed permanent notes eventually move to the Personal Wiki.
+Reviewed permanent knowledge work eventually moves to the Personal Wiki when it is ready for structured synthesis.
 
 GitHub is the canonical source of workflow rules.
+
+## Relationship with Personal Wiki
+
+The Personal Wiki is not a simple article-summary store.
+
+It is a structured AI-assisted knowledge-production system that accumulates multiple sources into durable notes, frameworks, and synthesis pages.
+
+The AI Inbox should feed the Personal Wiki only when material is ready to become part of a cumulative synthesis workflow.
+
+A Notion page is not automatically a Personal Wiki note.
+
+Use the AI Inbox for capture, triage, source staging, source summaries, synthesis sketches, link suggestions, and promotion candidates.
+
+Use the Personal Wiki for durable structured pages, multi-source synthesis, source-backed analytical updates, framework development, and project-specific refresh workflows.
 
 ## Notion database
 
@@ -77,7 +91,7 @@ Recommended values:
 - `Mobile Capture` — quick mobile capture, OCR, link, screenshot summary, or rough idea.
 - `Source Summary` — summary of an external source, document, article, email, or raw material.
 - `Working Note` — synthesis, map, analysis, intermediate thinking, link suggestions.
-- `Promotion Candidate` — cleaned material ready to move into the Personal Wiki / Obsidian after review.
+- `Promotion Candidate` — cleaned material ready to enter a Personal Wiki workflow after review.
 
 ## Status and review policy
 
@@ -111,22 +125,11 @@ Recommended values:
 - `Reading`
 - `Family`
 
-Use multiple domains when appropriate, but do not turn tags into confetti. Classification is useful only while it remains boring.
+Use multiple domains when appropriate.
 
 ## Source and raw-location policy
 
 Raw/source material lives in Google Drive by default.
-
-Examples:
-
-- PDFs
-- screenshots
-- exported articles
-- email exports
-- transcripts
-- source documents
-- images
-- raw notes before processing
 
 When a source exists, set:
 
@@ -134,8 +137,6 @@ When a source exists, set:
 Source = original URL or reference
 Raw Location = Google Drive raw/source link, if known
 ```
-
-Do not silently import raw files into Notion or Obsidian.
 
 Notion should store processed notes, summaries, OCR text, comments, maps, drafts, indexes, and review notes.
 
@@ -146,26 +147,13 @@ New structured notes should normally use this body structure:
 ```markdown
 ## Summary
 
-Short summary of the note.
-
 ## Main Note
-
-Structured content.
 
 ## Links / Suggested Links
 
-Suggested related notes, concepts, projects, or future links.
-
 ## Source / Raw Location
 
-Source URL, Google Drive raw location, or note that no raw source exists.
-
 ## Review / Next Actions
-
-- [ ] Keep
-- [ ] Edit
-- [ ] Promote
-- [ ] Archive
 ```
 
 For source summaries, prefer:
@@ -191,9 +179,9 @@ For promotion candidates, prefer:
 ```markdown
 ## Summary
 
-## Final Note
+## Final Note / Synthesis Brief
 
-## Suggested Destination
+## Suggested Personal Wiki Workflow
 
 ## Source / Raw Location
 
@@ -202,11 +190,11 @@ For promotion candidates, prefer:
 
 ## Promotion policy
 
-The Personal Wiki / Obsidian is the curated destination.
+The Personal Wiki is the curated destination for structured knowledge work.
 
 Notion is not the canonical archive.
 
-A note should become a `Promotion Candidate` before it is moved to the Personal Wiki.
+A note should become a `Promotion Candidate` before it is routed into a Personal Wiki workflow.
 
 After promotion, update the Notion page accordingly and avoid maintaining two competing canonical versions.
 
