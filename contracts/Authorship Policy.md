@@ -18,7 +18,7 @@ Options:
 
 - `Sergio` — generated or substantially edited by Sergio
 - `Stefano` — written directly by Stefano
-- `Other AI` — produced by another AI assistant or tool
+- `Zbigniew` — generated or substantially edited by Zbigniew
 - `Imported` — imported from another system without substantial editing
 
 ## Rule
