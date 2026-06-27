@@ -39,6 +39,32 @@ Use the AI Inbox for capture, triage, source staging, source summaries, synthesi
 
 Use the Personal Wiki for durable structured pages, multi-source synthesis, source-backed analytical updates, framework development, and project-specific refresh workflows.
 
+## Personal Wiki project registry
+
+Before suggesting Personal Wiki promotion, consult:
+
+```text
+personal-wiki/PROJECT_REGISTRY.md
+```
+
+Current registered Personal Wiki projects are:
+
+- EM Macro
+- AI Economy
+- Energy
+- Geopolitics
+- Personal Trainer
+
+The following domains are excluded from Personal Wiki promotion by default:
+
+- BoGa app/product work
+- Music practice and theory
+- Books and reading impressions
+- Family logistics
+- Random tech fixes
+
+These can still live in AI Inbox as notes, captures, or working material. They should not be routed to the Personal Wiki unless the registry is explicitly updated.
+
 ## Notion database
 
 Main database:
@@ -109,7 +135,7 @@ Use `Review` to track review state:
 - `Reviewed`
 - `Rejected`
 
-Do not mark material as ready for the Personal Wiki unless it is a reviewed `Promotion Candidate`.
+Do not mark material as ready for the Personal Wiki unless it is a reviewed `Promotion Candidate` and it fits the Personal Wiki project registry.
 
 ## Domain policy
 
@@ -126,6 +152,8 @@ Recommended values:
 - `Family`
 
 Use multiple domains when appropriate.
+
+AI Inbox domains are not the same as Personal Wiki project admission. A note may be useful in AI Inbox while still being outside Personal Wiki scope.
 
 ## Source and raw-location policy
 
