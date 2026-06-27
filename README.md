@@ -8,7 +8,7 @@ It is not the live inbox itself.
 
 - Google Drive is the raw/source archive.
 - Notion is the AI-operable inbox and working layer.
-- Obsidian / Personal Wiki is the canonical destination for reviewed permanent notes.
+- Personal Wiki is the canonical destination for reviewed permanent notes.
 - This GitHub repository is the canonical source for workflow rules, templates, contracts, and agent instructions.
 
 ## Main directories
