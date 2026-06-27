@@ -2,32 +2,34 @@
 
 ## Purpose
 
-Move reviewed, cleaned material from Notion into the main Personal Wiki / Obsidian.
+Move reviewed, cleaned material from Notion into the main Personal Wiki workflow.
 
 ## Source
 
-Notion `AI Notes` database.
+Notion `AI Inbox` database.
 
 ## Destination
 
-Main Personal Wiki / Obsidian.
+GitHub `personal-wiki` repository.
 
 ## Rules
 
 - Notion is the working layer, not the final wiki.
-- Only promote notes with `Status = Ready` and `Review = Reviewed`.
-- Promotion candidates should include a suggested destination.
+- Only promote notes with `Review = Reviewed`.
+- Promotion candidates should include a suggested destination or workflow.
 - Raw/source files remain in Google Drive.
-- After promotion, set `Status = Promoted` or `Archived`.
+- After promotion, update the Notion page status or review fields accordingly.
 
 ## Flow
 
-Notion AI note  
-↓  
-Review  
-↓  
-Clean final content  
-↓  
-Create or update Personal Wiki note  
-↓  
-Mark Notion page as `Promoted`
+Notion AI note
+
+Review
+
+Clean final content or synthesis brief
+
+Route into the relevant Personal Wiki workflow
+
+Create or update the structured Personal Wiki output
+
+Mark the Notion page as promoted or archived
