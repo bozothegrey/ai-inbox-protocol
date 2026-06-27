@@ -21,7 +21,7 @@ Notion is the cockpit and working layer. It is not the final Personal Wiki.
 
 Raw/source files stay in Google Drive by default.
 
-Reviewed permanent notes eventually move to the Personal Wiki / Obsidian.
+Reviewed permanent notes eventually move to the Personal Wiki.
 
 GitHub is the canonical source of workflow rules.
 
