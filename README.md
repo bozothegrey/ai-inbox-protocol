@@ -1,6 +1,6 @@
 # AI Inbox Protocol
 
-This repository defines the operating protocol for Stefano's AI-to-Notion workflow.
+This repository defines the operating protocol for AI-to-Notion workflow.
 
 It is not the live inbox itself.
 
