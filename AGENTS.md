@@ -75,6 +75,11 @@ Expected properties:
 
 Set `Author` accurately by complying to the `/contracts/Authorship Policy.md`
 
+## Taxonomy policy
+
+For Notion category values such as `Type`, `Status`, `Review`, `Domain`, `Target`, tags, and labels, follow `/contracts/Taxonomy Policy.md`.
+
+Agents should use the closest existing value first and propose a new value only when the gap is material. New Notion options require human confirmation.
 
 ## Type policy
 
@@ -110,7 +115,7 @@ Do not mark material as ready for the Personal Wiki unless it is a reviewed `Pro
 
 Use `Domain` to make the note easy to retrieve and summarize.
 
-Recommended values:
+Recommended starting values:
 
 - `BoGa`
 - `Fitness`
@@ -121,6 +126,8 @@ Recommended values:
 - `Family`
 
 Use multiple domains when appropriate.
+
+If no listed domain fits cleanly, use the closest existing domain and propose a new one only when it would improve future retrieval, filtering, summarisation, or project routing.
 
 AI Inbox domains are not the same as Personal Wiki project admission. A note may be useful in AI Inbox while still being outside Personal Wiki scope.
 
