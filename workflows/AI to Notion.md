@@ -14,7 +14,7 @@ Set properties such as Type, Status, Review, Domain, Source, Raw Location, Targe
 ↓  
 Review in Notion  
 ↓  
-[Optional] Promote cleaned notes to Personal Wiki
+Optional: Promote cleaned notes to Personal Wiki
 
 ## Required AI output
 
