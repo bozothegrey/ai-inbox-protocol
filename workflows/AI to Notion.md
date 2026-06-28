@@ -6,7 +6,7 @@ Save structured AI-generated notes into the Notion `AI Inbox` system.
 
 ## Flow
 
-ChatGPT / Sergio  
+ChatGPT / Other AI  
 ↓  
 Create or update Notion page in `AI Notes` database  
 ↓  
@@ -14,7 +14,7 @@ Set properties such as Type, Status, Review, Domain, Source, Raw Location, Targe
 ↓  
 Review in Notion  
 ↓  
-Promote cleaned notes to Personal Wiki / Obsidian
+[Optional] Promote cleaned notes to Personal Wiki
 
 ## Required AI output
 
